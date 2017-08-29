@@ -5,11 +5,18 @@
         <div class="box_right_texs"><?php the_title(); ?></div>
         <div class="contents">
 <?php
+			require_once 'class/page.class.php';
 			global $wp;
 			$current_url = home_url(add_query_arg(array(),$wp->request));
 			//echo $current_url;
 			
-			$xbjs = strstr($current_url,'xbjs');
+			
+			$cur = new page();
+			$cur -> strstrs('jsjs');
+			
+			
+			
+			/*$xbjs = strstr($current_url,'xbjs');
 			$zyjs = strstr($current_url,'zyjs');
 			//$zsjy = strstr($current_url,'zsjy');
 			$xbdt = strstr($current_url,'xbdt');
@@ -17,7 +24,7 @@
 			$jymx = strstr($current_url,'jymx');
 			$xbbk = strstr($current_url,'xbbk');
 			$lybu = strstr($current_url,'lybu');
-			$qsbx = strstr($current_url,'qsbx');
+			$qsbx = strstr($current_url,'qsbx');*/
 			if(!empty($zyjs)){
 				$qurey = 'zyjs';
 				$getid = get_cat_ID('专业介绍');
@@ -69,7 +76,7 @@
                     <p class="g1"><a href="http://www.baidu.com"></a></p>
                 </li>
                 <li>
-                    <a href="javascript:scroll(0,0)"><img src="/wp-content/themes/nsijsj/images1/tope.jpg" width="44" height="51" /></a>
+                    <a href="javascript:scroll(0,0)"><img src="/wp-content/themes/ctdow/images1/tope.jpg" width="44" height="51" /></a>
                 </li>
             </ul>
 		</div>

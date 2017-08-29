@@ -7,7 +7,7 @@
 		$output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);//获取文章中第一张图片的路径并输出
 		$first_img = $matches [1] [0];
 		if(empty($first_img)){ //如果文章无图片，获取自定义图片
-			$first_img = "/wp-content/themes/nsijsj/images/bannert.jpg";//请自行设置一张default.jpg图片
+			$first_img = "/wp-content/themes/ctdow/images/bannert.jpg";//请自行设置一张default.jpg图片
 		}
 		return $first_img;
 	}
