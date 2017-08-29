@@ -1,12 +1,11 @@
 <?php get_header(); ?>
-<?php require_once 'class/get.class.php' ?>
 <div style="background:#f1f1f1;">
     <div class="bg">
         <div class="mass">
             <div class="banner-wrap">
                 <div class="swiper-container">
                     <ul class="swiper-wrapper">
-                    <?php new news('图片','8'); ?>
+                    <?php new news('图片','8'); //获取图片分类的文章,共显示8个 ?>
                     
                     <?php while( have_posts() ) : the_post(); ?>
                         <li class="swiper-slide"><img src="<?php echo catch_that_image(); ?>"></li>
@@ -80,7 +79,7 @@
                 <div class="right">
                     <ul>
                         <li class="ab">
-                            <p class="b1">About /<span>&nbsp;<a href="/xbjs">系部介绍</a></span></p>
+                            <p class="b1">About /<span>&nbsp;<a href="/xbgk/xbjs/">系部介绍</a></span></p>
                             <p class="b2"><a href="/xbjs"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
                         <li class="mas"><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
@@ -101,7 +100,7 @@
                 <div class="left">
                     <ul>
                         <li class="ab">
-                            <p class="b1">Employment /<span>&nbsp;<a href="/lxwm">就业明星</a></span></p>
+                            <p class="b1">Employment /<span>&nbsp;<a href="/jymx/">就业明星</a></span></p>
                             <p class="b2"><a href="/lxwm"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
                         <li class="mas"><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
@@ -116,7 +115,7 @@
                 <div class="left">
                     <ul>
                         <li class="ab">
-                            <p class="b1">Teacher /<span>&nbsp;<a href="/jsjs">教师介绍</a></span></p>
+                            <p class="b1">Teacher /<span>&nbsp;<a href="/xbgk/jsjs/">教师介绍</a></span></p>
                             <p class="b2"><a href="/jsjs"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
                         <li><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
@@ -137,7 +136,7 @@
                 <div class="right">
                     <ul>
                         <li class="ab">
-                            <p class="b1">Major /<span>&nbsp;<a href="/zyjs">专业介绍</a></span></p>
+                            <p class="b1">Major /<span>&nbsp;<a href="/xbgk/zyjs/">专业介绍</a></span></p>
                             <p class="b2"><a href="/zyjs"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
                         <li><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>

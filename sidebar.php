@@ -16,7 +16,7 @@
 		} 
 	</script>
     <div class="biao">
-        <span>您当前的位置：&nbsp;>&nbsp;<a style="text-decoration:none;"><?php the_title(); ?></a></span>
+        <span>您当前的位置：&nbsp;>&nbsp;<a href="#"><?php the_title(); ?></a></span>
         <a href="/"><p>计算机系</p></a>
     </div>
     <div class="clear"></div>
@@ -27,8 +27,8 @@
 	$xbgk = strstr($current_url,'xbgk'); //判断地址栏是否有xbgk
 
 	if(!empty($xbgk)){
-		wp_nav_menu( array('container_class' => 'box_left','theme_location' => xbgk) );
-		echo '<script type="text/javascript">window.onload=function highThis(){highURL("menu-xbgk","box_lefta");}</script>';
+		wp_nav_menu( array('container_class' => 'box_left','theme_location' => xbgk) ); //加载分页二级菜单
+		echo '<script type="text/javascript">window.onload=function highThis(){highURL("menu-xbgk","box_lefta");}</script>'; //加载分页二级菜单高亮特效
 	}else if(!empty($jxzy)){
 		wp_nav_menu( array('container_class' => 'fl aboutmain-left','theme_location' => jxzy) );
 		echo '<script type="text/javascript">window.onload=function highThis(){highURL("menu-jxzy","aboutmain-left-li");}</script>';
