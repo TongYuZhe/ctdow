@@ -10,36 +10,35 @@
 <?php
 			global $wp;
 			$current_url = home_url(add_query_arg(array(),$wp->request));
-						
-			$xbjs = strstr($current_url,'xbjs');//验证地址栏是否有xbjs字符串
-			$zyjs = strstr($current_url,'zyjs');
-			$xbdt = strstr($current_url,'xbdt');
+			
+			$zyjs = strstr($current_url,'zyjs'); //验证地址栏是否有zyjs字符串
 			$jsjs = strstr($current_url,'jsjs');
 			$jymx = strstr($current_url,'jymx');
+			$xbdt = strstr($current_url,'xbdt');
 			$xbbk = strstr($current_url,'xbbk');
 			$lybu = strstr($current_url,'lybu');
 			$qsbx = strstr($current_url,'qsbx');
 			if(!empty($zyjs)){
-				require"zyjs.php";
-			}else if(!empty($xbdt)){
-				require"zyjs.php";
+				require"str/zyjs.php"; //专业介绍
 			}else if(!empty($jsjs)){
-				require"str/jsjs.php";
+				require"str/jsjs.php"; //教师介绍
 			}else if(!empty($jymx)){
-				require"jsjs.php";
+				require"str/jymx.php"; //就业明星
+			}else if(!empty($xbdt)){
+				require"str/xbdt.php"; //系部动态
 			}else if(!empty($xbbk)){
-				require"zyjs.php";
+				require"str/xbbk.php"; //系部博客
 			}else if(!empty($lybu)){
-				require"ly.php";
+				require"lybu.php"; //留言簿
 			}else if(!empty($qsbx)){
-				require"bx.php";
+				require"qsbx.php"; //报修
 			}else{		
 ?>
     			
         		<p>
 <?php
 					while( have_posts() ) : the_post();
-						the_content();
+						the_content(); //系部介绍&联系我们
 					endwhile;
 ?>
         		</p>

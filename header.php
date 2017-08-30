@@ -36,7 +36,7 @@
 	<div class="header2">
     	<a href="/"><div class="headerCenter"><img src="/wp-content/themes/ctdow/images/logo.png" /></div></a>
         <!--<div class="headerBottom"></div>-->
-    </div>
+    </div>	
 	<div class="nav2">
         <?php wp_nav_menu( array('container' => 'div','container_class' => 'navCenter','theme_location' => menu1) ); ?>
     </div>
