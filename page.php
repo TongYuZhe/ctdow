@@ -53,7 +53,7 @@
                 <p class="g1"><a href="http://www.baidu.com"></a></p>
             </li>
             <li>
-                <a href="javascript:scroll(0,0)"><img src="/wp-content/themes/ctdow/images1/tope.jpg" width="44" height="51" /></a>
+                <a href="javascript:scroll(0,0)"><img src="/wp-content/themes/ctdow/images/tope.jpg" width="44" height="51" /></a>
             </li>
         </ul>
     </div>

@@ -10,7 +10,7 @@ a:visited{text-decoration:none}
 .clear{clear:both}
 .mass{width:1024px;margin:0 auto}
 #page{width:0; height:0; overflow:hidden;}
-.bg{background:url(/wp-content/themes/ctdow/images1/bg_03.jpg) repeat-x top center;padding-top:40px}
+.bg{background:url(/wp-content/themes/ctdow/images/bg_03.jpg) repeat-x top center;padding-top:40px}
 .toper{width:1003px;float:left}
 .toper ul li{float:left;text-align:left;width:1003px}
 .toper ul li p{float:left}
@@ -31,12 +31,12 @@ a:visited{text-decoration:none}
 .left ul li.ab p.b2 a{display:inline-block}
 .left ul li.ab p.b2 a img{transition:transform .5s}
 .left ul li.ab p.b2 a img:hover{transform:rotate(90deg)}
-.left ul li.bc{background:url(/wp-content/themes/ctdow/images1/line.jpg) bottom repeat-x;padding-top:20px;padding-bottom:20px;text-align:left}
+.left ul li.bc{background:url(/wp-content/themes/ctdow/images/line.jpg) bottom repeat-x;padding-top:20px;padding-bottom:20px;text-align:left}
 .left ul li.bc p.b3{width:322px;font-size:12px;color:#494949;line-height:23px}
 .left ul li.bc p.b3 a{color:#494949}
 .left ul li.bc p.b3 a:hover{color:#000}
 .left ul li.bc div.b4{width:322px;font-size:12px;color:#909090;line-height:23px;text-align:left;height:44px;overflow-y:hidden}
-.left ul li.rc{width:322px;background:url(/wp-content/themes/ctdow/images1/line.jpg) bottom repeat-x}
+.left ul li.rc{width:322px;background:url(/wp-content/themes/ctdow/images/line.jpg) bottom repeat-x}
 .left ul li.rc p{float:left;line-height:36px}
 .left ul li.rc p.a1{width:41px;text-align:center}
 .left ul li.rc p.a2{width:41px;text-align:center;margin-top:8px}
@@ -56,7 +56,7 @@ a:visited{text-decoration:none}
 .right ul li.ab p.b2{float:right;margin-top:10px}
 .right ul li.ab p.b2 a img{transition:transform .5s}
 .right ul li.ab p.b2 a img:hover{transform:rotate(90deg)}
-.right ul li.bc{background:url(/wp-content/themes/ctdow/images1/line.jpg) bottom repeat-x;padding-top:12px;padding-bottom:13px;text-align:left}
+.right ul li.bc{background:url(/wp-content/themes/ctdow/images/line.jpg) bottom repeat-x;padding-top:12px;padding-bottom:13px;text-align:left}
 .right ul li.bc p.b3{width:322px;font-size:12px;color:#494949;line-height:23px}
 .right ul li.bc p.b3 a{color:#494949}
 .right ul li.bc p.b3 a:hover{color:#000}
@@ -75,16 +75,16 @@ a:visited{text-decoration:none}
 .footer_left a{color:#FFF}
 .footer_left a:hover{text-decoration:underline}
 .footer_right{float:right;font-family:"宋体";font-size:12px;color:#FFF;text-align:right;line-height:21px;margin-top:10px}
-.abtop{background:url(/wp-content/themes/ctdow/images1/top.jpg) top center no-repeat;height:36px;padding-top:91px}
+.abtop{background:url(/wp-content/themes/ctdow/images/top.jpg) top center no-repeat;height:36px;padding-top:91px}
 .nav{width:1001px;background:#FFF;border-bottom:silver solid 1px;border-top:silver solid 1px;border-left:silver solid 1px;margin:0 auto;height:34px;line-height:34px}
 .nav ul li{float:left;border-right:silver solid 1px;width:142px}
 .nav ul li a{font-family:"宋体";font-size:13px;font-weight:700;color:#464646}
-.nav ul li.hit{background:url(/wp-content/themes/ctdow/images1/kuai.jpg);width:142px;height:34px}
+.nav ul li.hit{background:url(/wp-content/themes/ctdow/images/kuai.jpg);width:142px;height:34px}
 .nav ul li.hit a{color:#FFF;font-family:"宋体";font-size:13px;font-weight:700;color:#fff}
 .nav ul li a:hover{color:#FFF}
-.nav ul li:hover{background:url(/wp-content/themes/ctdow/images1/kuai.jpg);width:142px;height:34px;color:#FFF}
+.nav ul li:hover{background:url(/wp-content/themes/ctdow/images/kuai.jpg);width:142px;height:34px;color:#FFF}
 .box{width:953px;background:#f2f0f1;margin:0 auto;padding-left:48px;padding-top:33px;text-align:left;margin-top:30px;padding-bottom:60px}
-.box_foot{background:url(/wp-content/themes/ctdow/images1/hjs_03.jpg) bottom center no-repeat;width:1003px;height:52px;text-align:center;margin:0 auto}
+.box_foot{background:url(/wp-content/themes/ctdow/images/hjs_03.jpg) bottom center no-repeat;width:1003px;height:52px;text-align:center;margin:0 auto}
 .box_left{float:left;width:141px;background:#FFF;margin-right:23px;border:#e0dfdf solid 1px}
 .box_left ul li{border-bottom:#e0dfdf solid 1px}
 .box_left ul li:hover a{font-family:"宋体";font-size:12px;color:#fff;background:#78cc0b;height:36px;border-bottom:#269407 solid 3px}
@@ -121,7 +121,7 @@ a:visited{text-decoration:none}
 .tel_btn{cursor:pointer}
 .close{position:absolute;right:5px;top:5px;cursor:pointer}
 .tcframe{width:474px;height:280px;position:absolute;left:35%;top:85%;display:none;z-index:1000;border:#269407 solid 2px}
-.bgf{width:100%;height:100%;background:url(/wp-content/themes/ctdow/images1/vi_bg.png);position:fixed;top:0;z-index:999;display:none;opacity:.5}
+.bgf{width:100%;height:100%;background:url(/wp-content/themes/ctdow/images/vi_bg.png);position:fixed;top:0;z-index:999;display:none;opacity:.5}
 .news{width:570px;margin:0 auto}
 .news ul li{float:left;width:570px;line-height:35px;border-bottom:#aaa dashed 1px}
 .news ul li p{float:left}
@@ -171,17 +171,17 @@ a:visited{text-decoration:none}
 .wbk_03{float:left;width:73px;height:26px;line-height:26px;border:#d3d3d3 solid 1px}
 .btn{width:129px;height:34px;line-height:34px;background:#269407;font-family:"Microsoft Yahei";font-size:15px;color:#fff;border:0}
 .fudong{float:left;width:44px}
-.fudong ul li p.g1{background:url(/wp-content/themes/ctdow/images1/message.jpg);width:44px;height:50px}
-.fudong ul li p.g1:hover{background:url(/wp-content/themes/ctdow/images1/message_01.jpg);width:135px;height:50px}
+.fudong ul li p.g1{background:url(/wp-content/themes/ctdow/images/message.jpg);width:44px;height:50px}
+.fudong ul li p.g1:hover{background:url(/wp-content/themes/ctdow/images/message_01.jpg);width:135px;height:50px}
 .fudong ul li p a{display:block;width:44px;height:50px;cursor:hand}
 .navs{width:100%;border-bottom:silver solid 1px;border-top:silver solid 1px;border-left:silver solid 1px;margin:0 auto;height:34px;line-height:34px}
 .navs ul{display:inline-block;margin:0 auto}
 .navs ul li{float:left;border-right:silver solid 1px}
 .navs ul li a{font-family:"宋体";width:142px;font-size:13px;font-weight:700;color:#464646;display:inline-block}
-.navs ul li.hit{background:url(/wp-content/themes/ctdow/images1/kuai.jpg);width:142px;height:34px}
+.navs ul li.hit{background:url(/wp-content/themes/ctdow/images/kuai.jpg);width:142px;height:34px}
 .navs ul li.hit a{color:#FFF;font-family:"宋体";font-size:13px;font-weight:700;color:#fff}
 .navs ul li:hover a{color:#fff}
-.navs ul li:hover{background:url(/wp-content/themes/ctdow/images1/kuai.jpg);width:142px;height:34px;color:#FFF}
+.navs ul li:hover{background:url(/wp-content/themes/ctdow/images/kuai.jpg);width:142px;height:34px;color:#FFF}
 .header2{width:100%;height:80px}
 .headerCenter{width:1003px;height:100%;background:url(/wp-content/themes/ctdow/images/header.png) no-repeat center;margin:0 auto;z-index:1;text-align:left}
 .headerBottom{width:100%;height:32px;z-index:0}
