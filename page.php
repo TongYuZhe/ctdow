@@ -29,12 +29,11 @@
 			}else if(!empty($xbbk)){
 				require"str/xbbk.php"; //系部博客
 			}else if(!empty($lybu)){
-				require"lybu.php"; //留言簿
+				require"str/lybu/lybu.php"; //留言簿
 			}else if(!empty($qsbx)){
-				require"qsbx.php"; //报修
-			}else{		
+				require"str/qsbx.php"; //报修
+			}else{
 ?>
-    			
         		<p>
 <?php
 					while( have_posts() ) : the_post();

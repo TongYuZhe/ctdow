@@ -99,16 +99,22 @@
                 <div class="left">
                     <ul>
                         <li class="ab">
-                            <p class="b1">Employment /<span>&nbsp;<a href="/jymx/">就业明星</a></span></p>
-                            <p class="b2"><a href="/lxwm"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
+                            <p class="b1">Teacher /<span>&nbsp;<a href="/xbgk/jsjs/">就业明星</a></span></p>
+                            <p class="b2"><a href="/jsjs"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
-                        <li class="mas"><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
-                        <?php for($in1 = 0 ; $in1 < 6 ; $in1++){ ?>
-                        <li class="rc">
-                            <p class="a2"><img src="/wp-content/themes/ctdow/images/index_32.jpg" width="13" height="17" /></p>
-                            <p><a href="#">联系我们</a></p>
-                        </li>
-                        <?php } ?>
+                        <li><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
+                        <?php new news('就业明星','3'); ?>
+                        <?php /*wp_list_categories('include=2&title_li=&style=none');*/ ?><!-- 分类名 -->
+                        <?php while( have_posts() ) : the_post(); ?>
+                            <li class="eap">
+                                <p class="a1">
+                                    <img src="<?php echo catch_that_image() ?>" width="99" height="88" />
+                                </p>
+                                <p class="a2">
+                                    <a href="<?php echo get_permalink(); ?>"><?php echo get_the_content() ?></a>
+                                </p>
+                            </li>
+                        <?php endwhile; ?>
                     </ul>
                 </div>
                 <div class="left">

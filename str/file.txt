@@ -3,3 +3,5 @@ zyjs.php-专业介绍
 jymx.php-就业明星
 xbdt.php-系部动态
 xbbk.php-系部博客
+lybu.php-留言簿
+qsbx.php-寝室报修
