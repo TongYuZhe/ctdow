@@ -1,4 +1,8 @@
 <?php get_header(); ?>
+<style type="text/css">
+	.footer{margin-top:0;}
+	.bg{padding-bottom:30px;}
+</style>
 <div style="background:#f1f1f1;">
     <div class="bg">
         <div class="mass">

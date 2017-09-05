@@ -17,3 +17,6 @@
 	</div>
     <?php pagination('jsjs'); //分页,获取jsjs页下文章的数目 ?>
 	<div class="clear"></div>
+    <style type="text/css">
+		.box_right{width:85% !important;}
+	</style>

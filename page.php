@@ -29,10 +29,19 @@
 			}else if(!empty($xbbk)){
 				require"str/xbbk.php"; //系部博客
 			}else if(!empty($lybu)){
-				require"str/lybu/lybu.php"; //留言簿
+				//require"str/lybu/lybu.php"; //留言簿
+				echo '功能未上线';
 			}else if(!empty($qsbx)){
-				require"str/qsbx.php"; //报修
+				//require"str/qsbx.php"; //报修
+				echo '功能未上线';
 			}else{
+				if(strstr($current_url,'lxwm')){
+?>
+					<style type="text/css">
+						.box_right{width:85% !important;}
+					</style>
+<?php
+				}//如果是联系我们页，宽度就加宽
 ?>
         		<p>
 <?php

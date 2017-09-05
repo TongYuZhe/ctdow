@@ -1,16 +1,7 @@
 
     <div class="news">
     	<ul>
-        <?php //$getid = get_cat_ID('专业介绍'); ?>
-		<?php
-            $limit = 14;
-            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-            query_posts('&showposts=' .$posts_per_page. '&paged=' . $paged . '&cat='.$getid);
-            $wp_query->is_archive = true;
-            $wp_query->is_home = false;
-        ?>
-        <?php /*wp_list_categories('include=2&title_li=&style=none');*/ ?><!-- 分类名 -->
-        
+        <?php new news('专业介绍','12'); ?>
         <?php
 			while( have_posts() ) : the_post();		
 		?>

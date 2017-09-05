@@ -6,3 +6,6 @@
         </form>
 	</div>
 	<div class="clear"></div>
+    <style type="text/css">
+		.box_right{width:85% !important;}
+	</style>
