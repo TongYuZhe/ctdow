@@ -49,14 +49,14 @@
                     <ul>
                         <li class="ab">
                             <p class="b1">Blog /<span>&nbsp;<a href="/xbbk">系部博客</a></span></p>
-                            <p class="b2"><a href="/xbbk"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
+                            <p class="b2"><a href="/xbbk"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
-                        <li><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
+                        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_21.jpg" width="321" height="3" /></li>
                         <?php new news('系部博客','2'); ?>
                         <?php /*wp_list_categories('include=2&title_li=&style=none');*/ ?><!-- 分类名 -->
                         <?php while( have_posts() ) : the_post(); ?>
                             <li class="bc">
-                                <p class="b3"><img src="/wp-content/themes/ctdow/images/index_24.jpg" width="26" height="10" />&nbsp;&nbsp;<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
+                                <p class="b3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_24.jpg" width="26" height="10" />&nbsp;&nbsp;<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
                                 <div class="b4"><?php the_content(); ?></div>
                             </li>
                         <?php endwhile; ?>
@@ -66,14 +66,14 @@
                     <ul>
                         <li class="ab">
                             <p class="b1">News /<span>&nbsp;<a href="/xbdt">系部动态</a></span></p>
-                            <p class="b2"><a href="/xbdt"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
+                            <p class="b2"><a href="/xbdt"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
-                        <li><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
+                        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_21.jpg" width="321" height="3" /></li>
                         <?php new news('系部动态','2'); ?>
                         <?php /*wp_list_categories('include=2&title_li=&style=none');*/ ?><!-- 分类名 -->
                         <?php while( have_posts() ) : the_post(); ?>
                             <li class="bc">
-                                <p class="b3"><img src="/wp-content/themes/ctdow/images/index_24.jpg" width="26" height="10" />&nbsp;&nbsp;<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
+                                <p class="b3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_24.jpg" width="26" height="10" />&nbsp;&nbsp;<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
                                 <div class="b4"><?php the_content(); ?></div>
                             </li>
                         <?php endwhile; ?>
@@ -83,30 +83,30 @@
                     <ul>
                         <li class="ab">
                             <p class="b1">About /<span>&nbsp;<a href="/xbgk/xbjs/">系部介绍</a></span></p>
-                            <p class="b2"><a href="/xbjs"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
+                            <p class="b2"><a href="/xbjs"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
-                        <li class="mas"><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
+                        <li class="mas"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_21.jpg" width="321" height="3" /></li>
                         <?php new news('系部介绍','1'); ?>
                         <?php /*wp_list_categories('include=2&title_li=&style=none');*/ ?><!-- 分类名 -->
                         <?php while( have_posts() ) : the_post(); ?>
                             <li class="lvz"><img class="iw" src="<?php echo catch_that_image() ?>" width="97" height="86" /><?php the_content(); ?></li>
                             <li class="lijs">
                                 <p><a href="<?php echo get_permalink(); ?>">查看</a></p>
-                                <p class="ma1"><img src="/wp-content/themes/ctdow/images/index_44.jpg" width="16" height="16" /></p>
+                                <p class="ma1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_44.jpg" width="16" height="16" /></p>
                             </li>
                         <?php endwhile; ?>
                     </ul>
                 </div>
                 <div class="clear"></div>
-                <div class="ma"><img src="/wp-content/themes/ctdow/images/index_29.jpg" width="1002" /></div>
+                <div class="ma"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_29.jpg" width="1002" /></div>
                 <div class="ma2"></div>
                 <div class="left">
                     <ul>
                         <li class="ab">
                             <p class="b1">Teacher /<span>&nbsp;<a href="/xbgk/jsjs/">就业明星</a></span></p>
-                            <p class="b2"><a href="/jsjs"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
+                            <p class="b2"><a href="/jsjs"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
-                        <li><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
+                        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_21.jpg" width="321" height="3" /></li>
                         <?php new news('就业明星','3'); ?>
                         <?php /*wp_list_categories('include=2&title_li=&style=none');*/ ?><!-- 分类名 -->
                         <?php while( have_posts() ) : the_post(); ?>
@@ -125,9 +125,9 @@
                     <ul>
                         <li class="ab">
                             <p class="b1">Teacher /<span>&nbsp;<a href="/xbgk/jsjs/">教师介绍</a></span></p>
-                            <p class="b2"><a href="/jsjs"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
+                            <p class="b2"><a href="/jsjs"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
-                        <li><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
+                        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_21.jpg" width="321" height="3" /></li>
                         <?php new news('教师介绍','3'); ?>
                         <?php /*wp_list_categories('include=2&title_li=&style=none');*/ ?><!-- 分类名 -->
                         <?php while( have_posts() ) : the_post(); ?>
@@ -146,14 +146,14 @@
                     <ul>
                         <li class="ab">
                             <p class="b1">Major /<span>&nbsp;<a href="/xbgk/zyjs/">专业介绍</a></span></p>
-                            <p class="b2"><a href="/zyjs"><img src="/wp-content/themes/ctdow/images/index_17.jpg" width="12" height="12" /></a></p>
+                            <p class="b2"><a href="/zyjs"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_17.jpg" width="12" height="12" /></a></p>
                         </li>
-                        <li><img src="/wp-content/themes/ctdow/images/index_21.jpg" width="321" height="3" /></li>
+                        <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/index_21.jpg" width="321" height="3" /></li>
                         <?php new news('专业介绍','3'); ?>
                         <?php /*wp_list_categories('include=2&title_li=&style=none');*/ ?><!-- 分类名 -->
                         <?php while( have_posts() ) : the_post(); ?>
                             <li class="bc">
-                                <p class="b3"><img src="/wp-content/themes/ctdow/images/red_03.jpg" width="6" height="6" />&nbsp;&nbsp;<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
+                                <p class="b3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/red_03.jpg" width="6" height="6" />&nbsp;&nbsp;<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
                                 <div class="b4"><?php the_content(); ?></div>
                             </li>
                         <?php endwhile; ?>

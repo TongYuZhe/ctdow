@@ -6,11 +6,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no" />
 <title>无标题文档</title>
-    <link type="text/css" rel="stylesheet" href="/wp-content/themes/ctdow/css/jquery.mmenu.all.css" media="screen" />
-    <link type="text/css" rel="stylesheet" href="/wp-content/themes/ctdow/css/demo.css" media="screen" />
-    <link type="text/css" rel="stylesheet" href="/wp-content/themes/ctdow/style.css" media="screen" />
-    <script type="text/javascript" src="/wp-content/themes/ctdow/js1/script.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/ctdow/js1/jquery.mmenu.all.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery.mmenu.all.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/demo.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" media="screen" />
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js1/script.js"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js1/jquery.mmenu.all.min.js"></script>
     <script type="text/javascript">
 	$(function() {
 		$('nav#menu').mmenu({
@@ -34,7 +34,7 @@
     </div>
     
 	<div class="header2">
-    	<a href="/"><div class="headerCenter"><img src="/wp-content/themes/ctdow/images/logo.png" /></div></a>
+    	<a href="/"><div class="headerCenter"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" /></div></a>
         <!--<div class="headerBottom"></div>-->
     </div>	
 	<div class="nav2">

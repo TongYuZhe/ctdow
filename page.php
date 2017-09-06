@@ -19,15 +19,15 @@
 			$lybu = strstr($current_url,'lybu');
 			$qsbx = strstr($current_url,'qsbx');
 			if(!empty($zyjs)){
-				require"str/zyjs.php"; //专业介绍
+				require(get_stylesheet_directory()."/str/zyjs.php"); //专业介绍
 			}else if(!empty($jsjs)){
-				require"str/jsjs.php"; //教师介绍
+				require(get_stylesheet_directory()."/str/jsjs.php"); //教师介绍
 			}else if(!empty($jymx)){
-				require"str/jymx.php"; //就业明星
+				require(get_stylesheet_directory()."/str/jymx.php"); //就业明星
 			}else if(!empty($xbdt)){
-				require"str/xbdt.php"; //系部动态
+				require(get_stylesheet_directory()."/str/xbdt.php"); //系部动态
 			}else if(!empty($xbbk)){
-				require"str/xbbk.php"; //系部博客
+				require(get_stylesheet_directory()."/str/xbbk.php"); //系部博客
 			}else if(!empty($lybu)){
 				//require"str/lybu/lybu.php"; //留言簿
 				echo '功能未上线';
