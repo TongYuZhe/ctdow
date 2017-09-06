@@ -40,4 +40,4 @@
 	<div class="nav2">
         <?php wp_nav_menu( array('container' => 'div','container_class' => 'navCenter','theme_location' => menu1) ); ?>
     </div>
-    <?php require'class/autoload.php'; ?>
+    <?php require(get_stylesheet_directory().'/class/autoload.php'); ?>
