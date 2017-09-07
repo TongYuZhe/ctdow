@@ -1,4 +1,4 @@
-@charset "utf-8";*{margin:0;padding:0}
+﻿@charset "utf-8";*{margin:0;padding:0}
 div,img,li,ul{padding:0;margin:0;border:0}
 ul li{list-style-type:none}
 blockquote,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,li,ol,pre,table,td,tr,ul{padding:0;margin:0;border:0;font-size:12px;text-align:center}
@@ -10,7 +10,7 @@ a:visited{text-decoration:none}
 .clear{clear:both}
 .mass{width:1024px;margin:0 auto}
 #page{width:0; height:0; overflow:hidden;}
-.banner-wrap{height:358px;}
+.banner-wrap{}
 .bg{background:url(images/bg_03.jpg) repeat-x top center;padding-top:40px}
 .toper{width:1003px;float:left}
 .toper ul li{float:left;text-align:left;width:1003px}
@@ -817,7 +817,7 @@ button.swiper-pagination-bullet{border:0;margin:0;padding:0;box-shadow:none;-moz
 	.footer{height:auto; padding:0 20px;}
 	.footer_right{text-align:left; margin-top:0;}
 	.footer_left{width:100%; line-height:35px; margin-top:10px;}
-	.ma{position:absolute; left:0; width:100%; background:url(images/index_29.jpg) no-repeat;}
+	.ma{position:absolute; left:0; width:100%; background:url(images/index_29.jpg) no-repeat; overflow:hidden}
 	.ma2{width:100%; height:67px;}
 	.headerCenter{width:100%;}
 	.navCenter{width:100%;}
@@ -840,4 +840,5 @@ button.swiper-pagination-bullet{border:0;margin:0;padding:0;box-shadow:none;-moz
 	.teams ul li p{margin:0;}
 	.teams ul li img{width:100%; height:175px;}
 	.meiti{width:100%;}
+	.box_foot{width:inherit; background:url(images/hjs_03.jpg) no-repeat}
 }
